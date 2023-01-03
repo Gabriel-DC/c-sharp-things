@@ -9,10 +9,7 @@ namespace c_sharp_things
         {
             Dir dir = new Dir();
 
-            var files = dir.FindFiles("bin");
-
-            foreach (var file in files)
-                Console.WriteLine(file);
+            dir.CreateDirectory("store");
         }
     }
 }
