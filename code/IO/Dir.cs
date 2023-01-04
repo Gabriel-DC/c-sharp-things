@@ -78,7 +78,7 @@ namespace c_sharp_things.code.IO
         public string GetExtension(string path)
         {
             //RETORNA A EXTENSAO DO ARQUIVO
-            var extension = Path.GetExtension(path); // ".txt"
+            var extension = Path.GetExtension(path);
             return extension;
         }
 
